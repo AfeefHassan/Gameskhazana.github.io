@@ -1,0 +1,54 @@
+*{
+    font-family: 'DM Sans', sans-serif;
+}
+header{
+    position: sticky;
+}
+.navbar{
+    background-color: crimson;
+    border-radius: 30px;
+}
+  .navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.search{
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+}
+.navbar li a:hover{
+    color: black
+}
+.page-title{
+    margin-left: 650px;
+}
+.csgo-image{
+    margin-left: 650px;
+}
+.information-csgo{
+    text-align: justify;
+}
+.information-csgo a{
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-left: 650px;
+    text-decoration: none;
+}
